@@ -3,6 +3,7 @@ import React from "react";
 import BeerMoreDetails from "../../Components/BeerMoreDetails";
 
 function BeerDetails(props) {
+  // ToDo Create Loading Component
   if (props.beerData.length === 0) {
     return <div> Loading </div>;
   } else {

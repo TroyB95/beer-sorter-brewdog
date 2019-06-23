@@ -2,6 +2,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## To Do
+
+-Refactor /ToDo code
+-Finish Styling
+-Create loading component
+-Make any optimizations I find
+-Add Jest unit tests and snapshots
+-Add Cypress End to end tests
+
 In the project directory, you can run:
 
 ### `npm start`

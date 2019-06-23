@@ -4,6 +4,7 @@ import BeerDisplay from "../../Components/BeerDisplay";
 import { StyledHome, StyledBeerDisplayArea, StyledTitle } from "./styles";
 
 function Home(props) {
+  // ToDo Create loading component
   if (props.beerData.length === 0) return <div> Loading </div>;
 
   return (

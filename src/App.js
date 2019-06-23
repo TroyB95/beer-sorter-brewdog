@@ -71,12 +71,12 @@ function App() {
           path="/"
           render={routeProps => (
             <>
-              {/* Would make its own component with more time */}
+              {/* ToDo make its own component */}
               <select
                 defaultValue="default"
                 className="App-select"
                 onChange={e => {
-                  // Not optimal and verbose, would refacor with more time
+                  // ToDo Not optimal and verbose, refactor
                   return e.target.value === "nameasc"
                     ? setData({ data: sortData("name", false, beerData.data), isFetching: false })
                     : e.target.value === "namedsc"
